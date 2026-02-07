@@ -3,7 +3,7 @@ import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
 
 const Sun = ({onSelect}) => {
-    const sunTexture = useLoader(TextureLoader, '/textures/sun.png');
+    const sunTexture = useLoader(TextureLoader, 'textures/sun.png');
 
   return (
     <mesh onClick={(e) => {
