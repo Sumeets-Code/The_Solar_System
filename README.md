@@ -51,7 +51,9 @@ This project is ideal for **learning, demos, and educational purposes**.
 
 ## 🚀 Live Demo
 
-🔗 Coming soon  
+```bash
+https://sumeets-code.github.io/The_Solar_System/
+``` 
 
 
 ---
