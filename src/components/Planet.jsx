@@ -6,7 +6,7 @@ import { TextureLoader } from 'three'
 const Planet = ({name, radius, distance, speed, elapsed, isPaused, onSelect}) => {
     const texture = useLoader(
         TextureLoader,
-        `textures/${name.toLowerCase()}.png`
+        `textures/new/${name.toLowerCase()}.webp`
     );
     const meshRef = useRef();
 

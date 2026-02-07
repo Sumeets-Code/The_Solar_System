@@ -4,8 +4,8 @@ import { useRef } from 'react';
 import { TextureLoader } from 'three'
 
 const EarthGroup = ({isPaused, elapsed, onSelect}) => {
-    const earthTexture = useLoader(TextureLoader, 'textures/earth.png');
-    const moonTexture = useLoader(TextureLoader, 'textures/moon.png');
+    const earthTexture = useLoader(TextureLoader, 'textures/new/earth.webp');
+    const moonTexture = useLoader(TextureLoader, 'textures/new/moon.webp');
 
     const earthGroupRef = useRef();
     const moonGroupRef = useRef();

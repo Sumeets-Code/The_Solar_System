@@ -4,9 +4,9 @@ import { useRef } from 'react';
 import { TextureLoader } from 'three'
 
 const SaturnGroup = ({onSelect, elapsed, isPaused}) => {
-    const saturnTexture = useLoader(TextureLoader, 'textures/saturn.png');
+    const saturnTexture = useLoader(TextureLoader, 'textures/new/saturn.webp');
 
-    const saturnRingTexture = useLoader(TextureLoader, 'textures/Saturn_ring.png');
+    const saturnRingTexture = useLoader(TextureLoader, 'textures/new/Saturn_ring.webp');
 
     const grpRef = useRef();
 
